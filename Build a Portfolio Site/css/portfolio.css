@@ -1,0 +1,128 @@
+
+html, body, main {
+  max-width: 100%;
+  font-family: 'Julius Sans One', sans-serif;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.container2 {
+  width: 100%;
+  display: flex;
+  max-width: 100%;
+}
+
+.column {
+  flex: 1 2 auto;
+  padding: 10px;
+}
+
+.mypic {
+  max-width: 100%;
+}
+
+.boxbigpic {
+  max-width: 100%;
+}
+
+.boxwork {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.column2 {
+  flex: 33%;
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+   width: 100px;
+   max-width: 100%;
+}
+
+h2 {
+   font-size: 20px;
+}
+
+h1 {
+   font-size: 40px;
+}
+
+hr {
+  border-width: 3px;
+}
+
+p {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.worktitles {
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.mywork, .boxbio, footer {
+  text-align: center;
+}
+
+.pic {
+  width: 100%
+}
+
+@media screen and (min-width: 300px) {
+  .logo {
+  width: 50%;
+  }
+
+  .boxtitle {
+    width: 50%;
+  }
+
+  .column2 {
+    width: 33%;
+  }
+
+  .worksites {
+    word-wrap: break-word;
+  }
+
+}
+
+@media screen and (min-width: 600px) {
+
+  .logo {
+    width: 10%;
+  }
+
+  .boxtitle {
+    width: 90%;
+    height: 90px;
+    text-align: right;
+    margin-bottom: 0;
+  }
+
+  .column2 {
+    width: 33%;
+  }
+
+  .worksites {
+    word-wrap: break-word;
+  }
+
+}
